@@ -1,0 +1,25 @@
+{
+  "custom template": {
+    "scope": "javascript",
+    "prefix": "eci",
+    "body": [
+      "export class ${1:Component} {",
+      "  static element = Elements.div``;",
+      "",
+      "  static i() {",
+      "    ${1}.element = Elements.div`",
+      "      $2",
+      "    `;",
+      "",
+      "    return ${1}.element;",
+      "",
+      "  }",
+      "",
+      "  static render() {",
+      "    ${1}.element.replaceWith(${1}.i());",
+      "  }",
+      "}"
+    ],
+    "description": "Log output to console"
+  }
+}
