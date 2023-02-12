@@ -1,0 +1,22 @@
+{
+  "name": "tagged-template-literals-component",
+  "version": "1.0.0",
+  "description": "Component concept created with tagged template literals",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  },
+  "scripts": {
+    "start": "http-server",
+    "deploy": "gh-pages -d ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssj9685/tagged-template-literals-component.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ssj9685/tagged-template-literals-component/issues"
+  },
+  "homepage": "https://ssj9685.github.io/tagged-template-literals-component"
+}
