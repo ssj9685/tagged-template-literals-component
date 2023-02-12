@@ -6,6 +6,7 @@
     "gh-pages": "^2.0.1"
   },
   "scripts": {
+    "start": "http-server",
     "deploy": "gh-pages -d ."
   },
   "repository": {

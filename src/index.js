@@ -1,4 +1,4 @@
-import { Page } from "./counter/view.js";
+import { Page } from "./pages/counter/view.js";
 
 class App {
   static start() {
